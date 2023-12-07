@@ -1,0 +1,137 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:serif;
+	box-sizing:border-box;
+}
+/* Header */ 
+.header .container{ 
+	display:flex;
+	justify-content:space-between;
+	padding:10px;
+	color:black;
+	font-size:30px;
+	position:fixed;
+	width:100vw;
+	background-color:white;
+}
+.header .container .menu-btn{
+	display:flex;
+	flex-direction:column;
+	gap:10px;
+	width:50px;
+}
+.header .menu-btn p{
+	background-color:black;
+	flex: 1 0 3px;
+	height:2px;
+}
+.space{
+	padding:40px;
+}
+/* Showcase */
+.options{
+	border:1px hidden black;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	width:95vw;
+	height:60vh;
+	gap:50px;
+}
+.box1{
+	position:relative;
+}
+.fix{
+	position:absolute;
+	top:230px;
+}
+.options h5{
+	font-size:20px;
+	display:inline-block;
+}
+.options p{
+	font-size:15px;
+	display:inline-block;
+}
+
+.options img{
+	width:150px;
+	background-size:center;
+}
+/* Pagination */
+.pagination .page-links ul{
+	display:flex;
+	border:1px hidden black;
+	padding:10px;
+	margin-top:30px;
+	gap:50px;
+	width:90vw;
+	height:5vh;
+	list-style-type:none;
+	justify-content:center;
+}
+.pagination a{
+	text-decoration:none;
+	color:black;
+}
+.pagination a:hover{
+	color:white;
+	padding:3px; 
+	cursor:pointer;
+}
+.pagination li:hover{
+	background-color:black;
+	width:50px;
+	height:30px; 
+	color:white;
+	cursor:pointer;
+}
+/* About */
+.about img{
+	margin-top:20px;
+}
+.about h1{
+	text-align:center;
+}
+.about h2{
+	text-align:center;
+}
+.about h4{
+	text-align:center;
+	margin-top:5px;
+}
+.about p{
+	margin:10px;
+}
+/* Footer */
+footer{
+	display:flex;
+	justify-content:space-evenly;
+	gap:10px;
+	margin-top:20px;
+}
+.end1 a{
+	color:black;
+}
+.end2 p{
+	display:inline;
+}
+.end3 a{
+	color:white;
+	text-decoration:none;
+	background-color:grey;
+	width:70px; 
+	height:30px; 
+	border:1px hidden black;
+	padding:0px;
+	display:inline-block;
+	margin-top:20px;
+	text-align:center;
+}
+footer h1{
+	text-align:center;
+}
+img{
+	z-index: -1;
+}
